@@ -1,0 +1,5 @@
+{% load staticfiles %}<!doctype html><html ng-app="angu" ng-strict-di=""><head><meta charset="utf-8"><title>angu | {{foo}}</title><meta name="description" content=""><meta name="viewport" content="width=device-width"><script>
+      STATIC = {% static '' %};
+    </script><link rel="stylesheet" href="{% static 'angu/styles/vendor-e418d5d1c9.css' %}"><link rel="stylesheet" href="{% static 'angu/styles/app-9af61cdb1a.css' %}"></head><body><!--[if lt IE 10]>
+ <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+ <![endif]--><div ui-view=""></div><script src="{% static 'angu/scripts/vendor-5926099d0a.js' %}"></script><script src="{% static 'angu/scripts/app-ea9120cea1.js' %}"></script></body></html>
